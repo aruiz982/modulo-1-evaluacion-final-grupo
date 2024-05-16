@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+}
+
+@import './core/reset';
+@import'./core/variables';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/aboutus';
+@import './layout/SandW';
+@import './layout/contact';
+@import './layout/footer';
+
