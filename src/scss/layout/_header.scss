@@ -1,0 +1,38 @@
+
+.header{
+    text-align: center;
+
+}
+
+.header_title{
+    font-size: 16px;
+    width: 100%;
+    background-color:#099d8d ;
+    color:white;
+    line-height: 60px;
+
+    /* line-height:44px ;
+    padding: 16px; */
+    
+    /* height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+    .header_menu_list{
+    display: flex;
+    justify-content: center;
+    
+    background-color:#14d9c4 ;
+    line-height: 30px;
+}
+.header_menu_link{
+
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-inline: 15px;
+    color:white;
+}
