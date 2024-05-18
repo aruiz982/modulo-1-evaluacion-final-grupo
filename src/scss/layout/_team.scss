@@ -1,4 +1,6 @@
 .team{
+    position: relative;
+
     padding: 30px 15px;
 
     @media (min-width: 768px) {
@@ -39,13 +41,19 @@
 }
 
 .team__arrow{
-    display: block;
-    margin: 0 auto;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    
-    border-top: 20px solid #f00;
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+
+    transform: rotate(45deg);
+
+    background-color: #fff;
+
 }
