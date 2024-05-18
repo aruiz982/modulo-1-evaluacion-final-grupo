@@ -1,0 +1,64 @@
+._hero_section {
+    display: inline;
+    padding-bottom: 5%;
+}
+
+._hero_title {
+    text-align: center;
+    font-family: $font_rubik;
+    font-size: 18px;
+    position: absolute;
+    transform:translateY(-100%);
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+._hero_background_image {
+    background-color: $color_light-grey-blue;
+    background-image: url(/images/scooby_doo_hero_image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 621px;
+    
+    
+}
+
+@media (min-width: 760px) {
+
+    ._hero_title {
+        font-size: 24px;
+        line-height: 30px;
+        padding-left: calc(10%);
+        padding-right: calc(10%);
+    }
+
+    ._hero_background_image {
+        object-fit: contain;
+        background-size: contain;
+        height: 821px;
+    
+    }
+}
+
+@media (min-width: 1200px) {
+    ._hero_title {
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    ._hero_background_image {
+        object-fit: contain;
+        background-size: contain;
+        height: 921px;
+    
+    }
+}
+
+
+
+
