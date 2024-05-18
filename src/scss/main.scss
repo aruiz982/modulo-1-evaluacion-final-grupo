@@ -1,13 +1,9 @@
-body {
-  background-color: lightblue;
-}
-
 @import './core/reset';
 @import'./core/variables';
 @import './layout/header';
 @import './layout/hero';
-@import './layout/aboutus';
+@import './layout/team';
 @import './layout/SandW';
-@import './layout/contact';
+@import './layout/aboutus';
 @import './layout/footer';
-
+@import './layout/contact';
