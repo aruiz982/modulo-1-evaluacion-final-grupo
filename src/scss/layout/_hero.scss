@@ -7,9 +7,11 @@
     text-align: left;
     font-family: $font_rubik;
     font-size: 20px;
+    font-style: normal;
+    line-height: 1.39;
     position: absolute;
-    transform:translateY(-100%);
-    background-color: rgba(240, 248, 255, 0.591);
+    transform:translateY(-50%);
+    background-color: rgba(240, 248, 255, 0.664);
     margin-left: 10%;
     margin-right: 10%;
     padding: 3%;
@@ -32,22 +34,26 @@
     ._hero_title {
         font-size: 24px;
         line-height: 30px;
-
+        line-height: 1.6;
+        //transform:translateY(-228%);
+        
 
     }
 
     ._hero_background_image {
         object-fit: contain;
         background-size: contain;
+        height: 821px;
     
     }
 }
 
 @media (min-width: 1200px) {
     ._hero_title {
-        font-size: 24px;
-        text-align: center;
-        justify-content: center;
+        font-size: 28px;
+        transform:translateY(-100%);
+        margin-left: 25%;
+        margin-right: 25%;
 
     }
 
