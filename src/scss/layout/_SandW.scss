@@ -1,0 +1,48 @@
+.SandW{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 30px 15px;
+
+    background-color: rgba(184, 184, 185, 0.2);
+
+    text-align: center;
+
+    @media (min-width: 768px) {
+        padding: 45px 15px;
+    }
+}
+
+.SandW__element{
+    max-width: 600px;
+    margin-inline: auto;
+
+    @media (min-width: 768px){
+        width: calc((100% - 60px) / 2);
+    }
+}
+
+.SandW__element:last-child{
+    margin-top: 1.8rem;
+
+    @media (min-width: 768px){
+        margin-top: 0;
+    }
+}
+
+.SandW__title{
+    font-family: $font_rubik;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    line-height: 45px;
+
+    color: $color_blue-green;
+}
+
+.SandW__text{
+    color: $color_texts;
+    opacity: 0.67;
+    line-height: 1.5rem;
+}
