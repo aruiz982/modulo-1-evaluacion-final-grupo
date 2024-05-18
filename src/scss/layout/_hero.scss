@@ -4,19 +4,20 @@
 }
 
 ._hero_title {
-    text-align: center;
+    text-align: left;
     font-family: $font_rubik;
-    font-size: 18px;
+    font-size: 20px;
     position: absolute;
     transform:translateY(-100%);
-    background-color: aliceblue;
-    text-align: center;
+    background-color: rgba(240, 248, 255, 0.591);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
 
 }
 
 ._hero_background_image {
-    background-color: $color_light-grey-blue;
-    background-image: url(/images/scooby_doo_hero_image.png);
+    background-image: url(/images/scooby_doo_w_background.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,14 +32,13 @@
     ._hero_title {
         font-size: 24px;
         line-height: 30px;
-        padding-left: calc(10%);
-        padding-right: calc(10%);
+
+
     }
 
     ._hero_background_image {
         object-fit: contain;
         background-size: contain;
-        height: 821px;
     
     }
 }
