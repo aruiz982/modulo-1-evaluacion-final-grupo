@@ -1,5 +1,18 @@
 .contact__background__image{
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 0;
     height: 300px;
+}
+.contact__container{
+    display: flex;
+    justify-content: center;
+}
+.contacto___title{
+    font-family: $font_rubik;
+    font-size: 24px;
+    color: $color_blue-green;
+}
+.contact__article{
+color: $color_texts;
 }
