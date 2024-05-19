@@ -10,26 +10,61 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./scss/main.scss" />
   </head>
 
   <body>
     <load src="./partials/header.html" />
 
-    <main>
-      <div class="contact__background__image">
-        <img src="../images/contact_images.jpg" alt="background__image" />
-      </div>
+    <main class="contacto__main">
+      <nav class="contact_image"></nav>
       <div class="contact__container">
         <h1 class="contacto___title">CONTACTO</h1>
-        <article class="contact__article">
+        <p class="contact__article">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          doloribus nam corporis numquam rem vero possimus inventore sed.
-          Laborum qui magnam corporis expedita dolor tenetur, dignissimos ullam
-          accusantium pariatur officiis?
-        </article>
-        <p></p>
-        <form action=""></form>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+          ullamcorper mauris, vel convallis metus eleifend in.
+        </p>
+        <p class="contact__text">
+          Todos los campos marcados con <span class="star">*</span> son
+          obligatorios.
+        </p>
+
+        <form class="contact__form" action="">
+          <label class="label" for="nombre"
+            >Nombre completo<span class="star">*</span></label
+          >
+          <input class="input" type="text" id="nombre" name="nombre" />
+
+          <label class="label" for="email"
+            >Email<span class="star">*</span></label
+          >
+          <input class="input" type="email" id="email" name="email" />
+
+          <label class="label" for="telefono"
+            >Teléfono<span class="star">*</span></label
+          >
+          <input class="input" type="number" id="telefono" name="telefono" />
+
+          <label class="label" for="mensaje"
+            >Mensaje<span class="star">*</span></label
+          >
+          <input
+            class="input"
+            class="special__input"
+            type="text"
+            id="mensaje"
+            name="mensaje"
+          />
+
+          <input class="contact__submit" type="submit" value="Enviar" />
+        </form>
       </div>
     </main>
 
