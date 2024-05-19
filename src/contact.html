@@ -36,31 +36,61 @@
           obligatorios.
         </p>
 
-        <form class="contact__form" action="">
+        <form
+          class="contact__form"
+          action="https://dev.adalab.es/api/form"
+          method="post"
+        >
           <label class="label" for="nombre"
             >Nombre completo<span class="star">*</span></label
           >
-          <input class="input" type="text" id="nombre" name="nombre" />
+          <input
+            class="input"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre..."
+            required
+          />
+          <div class="contact__especial__part">
+            <div>
+              <label class="label" for="email"
+                >Email<span class="star">*</span></label
+              >
 
-          <label class="label" for="email"
-            >Email<span class="star">*</span></label
-          >
-          <input class="input" type="email" id="email" name="email" />
-
-          <label class="label" for="telefono"
-            >Teléfono<span class="star">*</span></label
-          >
-          <input class="input" type="number" id="telefono" name="telefono" />
+              <input
+                class="input different1"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="nombre.apellidos@mail.com"
+                required
+              />
+            </div>
+            <div>
+              <label class="label" for="telefono"
+                >Teléfono<span class="star">*</span></label
+              >
+              <input
+                class="input different2"
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="Ej: 123456789"
+              />
+            </div>
+          </div>
 
           <label class="label" for="mensaje"
             >Mensaje<span class="star">*</span></label
           >
           <input
-            class="input"
-            class="special__input"
+            class="input input__special"
             type="text"
             id="mensaje"
             name="mensaje"
+            placeholder="¿Qué necesitas?"
+            required
           />
 
           <input class="contact__submit" type="submit" value="Enviar" />
