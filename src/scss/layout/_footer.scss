@@ -17,15 +17,22 @@ border-top: solid 1px #b8b8b9;
 .footer_menu{
     color: black;
     
+    
+    
 }
 .footer_menu_link{
-    color: black; 
+     
     text-decoration: none;
+    text-transform: uppercase;
+    color: $color_texts;
+    font-weight: 600;
    
     
 }
 .footer_copy{
     font-size: 13px;
+    margin-top: 30px;
+    color: $color_light-grey-blue;
     
 }
 .footer_image{

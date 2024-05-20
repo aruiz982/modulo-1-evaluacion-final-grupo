@@ -16,6 +16,7 @@
     opacity: 0.95;
     color:white;
     line-height: 60px;
+    text-transform: uppercase;
 
     /* line-height:44px ;
     padding: 16px; */
@@ -27,6 +28,9 @@
     
 }
     .header_menu_list{
+    font-family: $font_rubik;
+    font-weight: 500;
+    font-size: 15px;
         
     display: flex;
     justify-content: center;
@@ -41,6 +45,31 @@
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 7px;
-    padding-inline: 15px;
+    padding-inline: 10px;
     color:white;
 }
+@media (min-width:768px){
+
+    .header{
+        background-color:#099d8d;
+        
+        
+    }
+    .header_title{
+        background-color:none;
+        text-align: left;
+        margin-left: 45px;
+        
+    }
+    .header_menu_list{
+        background-color:$color_blue-green;
+        margin-right: 45px;
+    }
+    .header_menu_link{
+        background-color:none;
+    }
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    }
