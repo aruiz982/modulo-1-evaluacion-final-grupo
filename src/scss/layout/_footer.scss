@@ -7,6 +7,9 @@ line-height: 25px;
 color: black;
 gap: 20px;
 text-align: center;
+margin-bottom:45px;
+border-top: solid 1px #b8b8b9;
+
 
 }
 
@@ -27,6 +30,38 @@ text-align: center;
 }
 .footer_image{
    
-    width: 115.9px;
+  width: 115.9px;
   height: 45px;
+  
+}
+
+@media (min-width:768px){
+
+    .footer{
+        display: grid;
+        grid-template-areas: "copy menu"
+                                "logo menu"
+
+    }
+    .footer_menu{
+        align-self:center ;
+        grid-area: menu;
+    }
+    .footer_copy{
+        grid-area: copy;
+
+        justify-self:left;
+        margin-left: 45px;;
+    }
+    .footer_menu_list{
+       
+        text-align: right;
+        
+        margin-right: 45px;
+    }
+    .footer_image{
+        grid-area: logo;
+        margin-top: -20px;
+        margin-left: 37px;
+    }
 }
