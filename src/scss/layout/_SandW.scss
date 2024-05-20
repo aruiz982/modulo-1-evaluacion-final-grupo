@@ -1,33 +1,32 @@
 .SandW{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
     align-items: center;
+    justify-content: center;
 
-    padding: 30px 15px;
+    padding: 30px 15px 45px 15px;
 
     background-color: rgba(184, 184, 185, 0.2);
 
     text-align: center;
 
     @media (min-width: 768px) {
-        padding: 45px 15px;
+        flex-direction: row;
+        
+        padding-block: 45px;
     }
+
 }
 
 .SandW__element{
+    width: 100%;
     max-width: 600px;
-    margin-inline: auto;
 
     @media (min-width: 768px){
-        width: calc((100% - 60px) / 2);
-    }
-}
-
-.SandW__element:last-child{
-    margin-top: 1.8rem;
-
-    @media (min-width: 768px){
-        margin-top: 0;
+        width: 45%;
+        max-width: 430px;
     }
 }
 
