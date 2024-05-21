@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="./assets/main-a32fad45.css">
+  </head>
+
+  <body>
+    <header class="header">
+  
+  <div class="header_container">
+  <h1 class="header_title">Scooby-Labers</h1>
+  <nav class="header_menu">
+    <ul class="header_menu_list">
+      <li><a class="header_menu_link" href="./#team">Equipo</a></li>
+      <li><a class="header_menu_link" href="./#about_us">Quiénes somos</a></li>
+      <li><a class="header_menu_link" href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
+
+
+    <main class="contacto__main">
+      <nav class="contact_image"></nav>
+      <div class="contact__container">
+        <h1 class="contacto___title">CONTACTO</h1>
+        <p class="contact__article">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+          ullamcorper mauris, vel convallis metus eleifend in.
+        </p>
+        <p class="contact__text">
+          Todos los campos marcados con <span class="star">*</span> son
+          obligatorios.
+        </p>
+
+        <form
+          class="contact__form"
+          action="https://formspree.io/f/mdoqvajy"
+          method="post"
+        >
+          <label class="label" for="nombre"
+            >Nombre completo<span class="star">*</span></label
+          >
+          <input
+            class="input"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre..."
+            required
+          />
+          <div class="contact__especial__part">
+            <div>
+              <label class="label" for="email"
+                >Email<span class="star">*</span></label
+              >
+
+              <input
+                class="input different1"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="nombre.apellidos@mail.com"
+                required
+              />
+            </div>
+            <div>
+              <label class="label" for="telefono"
+                >Teléfono <span class="star"></span></label
+              ><input
+                class="input different2"
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="Ej: 123456789"
+              />
+            </div>
+          </div>
+
+          <label class="label" for="mensaje"
+            >Mensaje<span class="star">*</span></label
+          >
+          <input
+            class="input input__special"
+            type="text"
+            id="mensaje"
+            name="mensaje"
+            placeholder="¿Qué necesitas?"
+            required
+          />
+
+          <input class="contact__submit" type="submit" value="ENVIAR" />
+        </form>
+      </div>
+    </main>
+
+    
+<div class="footer">
+  
+<small class="footer_copy">Scooby-Labers &copy; 2024</small>
+
+<nav class="footer_menu">
+    <ul class="footer_menu_list">
+      <li><a class="footer_menu_link" href="./#team">Equipo</a></li>
+      <li><a class="footer_menu_link" href="./#about_us">Quiénes somos</a></li>
+      <li><a class="footer_menu_link" href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <img class="footer_image" src="./images/logo-adalab.png" alt="foto logo adalab" >
+
+</div>  
+
+  </body>
+</html>
