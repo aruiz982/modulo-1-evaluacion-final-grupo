@@ -65,19 +65,17 @@
     }
 
     .header_title{
-        
         text-align: left;
         margin-left: 45px;
         width: 140px;
         height: auto;
-        margin-left: 140px;
           
     }
     
     .header_menu_list{
         
         background-color:$color_blue-green;
-        margin-right: 140px;
+        margin-right: 45px;
         padding-top: 7px;
         
         height: auto;
@@ -91,4 +89,14 @@
         
     }
    
+    }
+
+    @media (min-width: 1200px){
+        .header_menu_list{
+            margin-right: 140px;
+        }
+
+        .header_title{
+            margin-left: 140px;
+        }
     }
