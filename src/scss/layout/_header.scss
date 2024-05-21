@@ -4,6 +4,7 @@
     position:fixed;
     width: 100%;
     z-index: 2;
+    opacity: 0.95;
   
 }
 
@@ -40,7 +41,7 @@
     opacity: 0.95;
 }
 .header_menu_link{
-
+    
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -51,25 +52,43 @@
 @media (min-width:768px){
 
     .header{
-        background-color:#099d8d;
         
-        
-    }
-    .header_title{
-        background-color:none;
-        text-align: left;
-        margin-left: 45px;
+        background-color:$color_blue-green; 
+        opacity: 0.85;
         
     }
-    .header_menu_list{
-        background-color:$color_blue-green;
-        margin-right: 45px;
-    }
-    .header_menu_link{
-        background-color:none;
-    }
+    
+    
     .header_container{
         display: flex;
         justify-content: space-between;
     }
+
+    .header_title{
+        
+        text-align: left;
+        margin-left: 45px;
+        width: 160px;
+        height: auto;
+ 
+          
+    }
+    
+    .header_menu_list{
+        
+        background-color:$color_blue-green;
+        margin-right: 70px;
+        padding-top: 7px;
+        width: 170px;
+        height: auto;
+
+        
+        
+    }
+    .header_menu_link{
+        background-color:none;
+        padding-inline: 15px;
+        
+    }
+   
     }
