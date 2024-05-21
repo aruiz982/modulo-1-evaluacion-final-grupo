@@ -47,12 +47,13 @@ border-top: solid 1px #b8b8b9;
     .footer{
         display: grid;
         grid-template-areas: "copy menu"
-                                "logo menu"
+                             "logo menu"
 
     }
     .footer_menu{
         align-self:center ;
         grid-area: menu;
+        padding-top: 24px;
     }
     .footer_copy{
         grid-area: copy;
