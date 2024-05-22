@@ -1,11 +1,12 @@
 .about_us {
-    scroll-margin-top: 3rem;
+    scroll-margin-top: 6rem;
     text-align: center;
     padding-inline: 1rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
 
     @media (min-width: 768px) {
+        scroll-margin-top: 3rem;
         padding-inline: 3rem;
     }
 
